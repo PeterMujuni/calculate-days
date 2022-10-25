@@ -5,4 +5,5 @@ import { getTimeInBetweenDates } from "./date.js";
  * (date format: year-month-day) ex: 2010-10-1
  * returns 
  */
-getTimeInBetweenDates('2010-1-1', '2020-1-1')
+
+console.log("Difference of days between dates: " + getTimeInBetweenDates('2018-1-1', '2019-1-2'));
